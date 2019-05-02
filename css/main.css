@@ -1,11 +1,9 @@
-/* CIT 230 - Assignment Portal CSS Template */
-/* You may use #HEX or color names */
-/* * is a wildcard referring to all elements. */
 * {
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Main Body */
 body {
     font-size: 16px;
     line-height: 32px;
@@ -13,6 +11,7 @@ body {
     color: #3A5E48;
 }
 
+/*Headers*/
 h1 {
     font-size: 1.7rem;
     color: indigo;
@@ -40,6 +39,7 @@ footer a {
     color: darkslategrey;
 }
 
+/*Profile Photo*/
 header img {
     width: 150px;
     height: auto;
