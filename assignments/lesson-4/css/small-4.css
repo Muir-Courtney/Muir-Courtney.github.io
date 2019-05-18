@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(247, 247, 247);
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 10px auto auto;
+    background-color: rgba(38, 54, 11);
+    border: 1px solid #bbb;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(244, 241, 187);
+    letter-spacing: 0.2em;
+    font-size: 35px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav {
+    background-color: rgba(244, 241, 187);
+    padding: 10px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 0.2em;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+}
+
+header img,
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.active {
+    background-color: rgba(38, 54, 11);
+    color: rgba(244, 241, 187);
+}
+
+.motto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: rgb(244, 241, 187);
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(38, 54, 11);
+    letter-spacing: 0.2em;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+
+main,
+footer {
+    margin: 15px;
+    padding: 15px;
+}
+
+p {
+    color: rgba(71, 74, 72);
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+}
