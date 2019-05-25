@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(247, 247, 247);
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Header*/
+
+header {
+    margin: 10px auto auto;
+    background-color: rgba(38, 54, 11);
+    border: 1px solid #bbb;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(244, 241, 187);
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    max-width: 50px;
+}
+
+header .motto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgb(244, 241, 187);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/*Navigation*/
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(244, 241, 187);
+}
+
+/*Hide list items, show Menu hamburger*/
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+
+}
+
+nav li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Active page Wayfind */
+.active,
+a:hover {
+    color: #f4f1bb;
+    background-color: #26360b;
+}
+
+/* Header Sizes*/
+h2,
+h3,
+h4 {
+    font-family: 'Luckiest Guy', cursive;
+    color: rgba(38, 54, 11);
+    letter-spacing: 0.2em;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Main content Changes */
+main,
+footer {
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.fiveday {
+    display: none;
+}
+
+p {
+    color: rgba(71, 74, 72);
+    font-family: 'Roboto Slab', serif;
+}
+
+.weathsumm {
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    max-width: 150px;
+    border: 1px solid #474a48;
+    background-color: rgba(244, 241, 187, 65%);
+    padding: 2px;
+}
+
+.article {
+    max-width: 70%;
+    border: 1px solid #474a48;
+}
+
+.articleimg {
+    margin-bottom: 10px;
+    max-width: 90%;
+    box-shadow: 0 0 5px #474a48;
+}
+
+footer {
+    background-color: rgba(244, 241, 187, 65%);
+    text-align: left;
+    margin-left: 30px;
+}
+
+footer img {
+    max-width: 75%;
+}
+
+.studentinfo {
+    background-color: rgba(71, 74, 72, 40%);
+    padding: 2px;
+}
+
+.icon {
+    max-width: 30px;
+}

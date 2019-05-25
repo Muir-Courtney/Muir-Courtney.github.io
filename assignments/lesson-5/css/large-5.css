@@ -1,0 +1,76 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*Keep all CSS here for specificity*/
+    body {
+        max-width: 800px;
+    }
+
+    header img {
+        max-width: 75px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    /*Hide Menu button, show menu list*/
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    /*Five Day Forcast Flex*/
+    .fiveday {
+        max-width: 80%;
+        display: inline-block;
+        text-align: center;
+        background-color: rgba(105, 163, 4, 40%);
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+        max-width: 75%;
+    }
+
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6 {
+        flex: 1 1 100%;
+        border: 2px solid #474a48;
+        text-align: center;
+    }
+
+    .label {
+        display: block;
+        padding: 2px;
+        font-weight: 700;
+        font-size: larger;
+    }
+
+    .flex div img {
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .article {
+        max-width: 100%;
+    }
+
+
+    /*Stay above this bracket*/
+}
