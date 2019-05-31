@@ -1,0 +1,174 @@
+body {
+    background-color: rgb(247, 247, 247);
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Header*/
+
+header {
+    margin: 10px auto auto;
+    background-color: rgba(64, 90, 1);
+    border: 1px solid rgba(71, 74, 72);
+}
+
+header h1 {
+    font-family: 'Acme', cursive;
+    color: rgba(244, 241, 187);
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 30px;
+}
+
+header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 10px;
+    max-width: 50px;
+}
+
+header .motto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgb(244, 241, 187);
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/*Navigation*/
+.navigation {
+    list-style: none;
+    margin: 0 auto auto;
+    padding: 0;
+    background-color: rgba(149, 176, 56);
+}
+
+/*Hide list items, show Menu hamburger*/
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.responsive li {
+    display: block;
+}
+
+/*Active page Wayfind */
+.active {
+    display: block;
+    color: #f4f1bb;
+    background-color: #26360b;
+}
+
+a:hover {
+    color: #f4f1bb;
+    background-color: #26360b;
+}
+
+/* Header Sizes*/
+h2,
+h3,
+h4 {
+    font-family: 'Acme', cursive;
+    color: rgba(64, 90, 1);
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Main content Changes */
+main {
+    margin: 15px;
+    padding: 15px;
+}
+
+.fiveday {
+    display: none;
+}
+
+p {
+    color: rgb(39, 41, 40);
+    font-family: 'Roboto Slab', serif;
+}
+
+.weathsumm {
+    margin: 10px auto;
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    border: 1px solid rgba(71, 74, 72);
+    background-color: rgba(226, 218, 63, 0.65);
+    padding: 2px;
+}
+
+.article {
+    border: 1px solid rgba(71, 74, 72);
+    padding: 5px;
+}
+
+.articleimg {
+    margin: 3px;
+    box-shadow: 0 0 5px #474a48;
+    float: right;
+}
+
+footer {
+    background-color: rgba(149, 176, 56);
+}
+
+.studentinfo {
+    background-color: rgba(64, 90, 1);
+    padding: 2px;
+    clear: both;
+}
+
+.studentinfo p,
+#date {
+    color: rgba(244, 241, 187);
+    font-size: 14px;
+}
+
+.icon {
+    max-width: 30px;
+}
