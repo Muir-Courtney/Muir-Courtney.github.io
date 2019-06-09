@@ -102,7 +102,7 @@ h5 {
 /* Main content Changes */
 main,
 footer {
-    max-width: 870px;
+    max-width: 100%;
     padding: 10px;
     margin: auto;
 }
@@ -129,6 +129,7 @@ p {
 }
 
 .hero {
+    line-height: .5em;
     position: absolute;
     margin-top: 5px;
     margin-left: 50px;
