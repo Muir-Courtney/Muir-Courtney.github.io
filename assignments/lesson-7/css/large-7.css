@@ -1,0 +1,15 @@
+@media only screen and (min-width: 68.0em) {
+
+    /*Keep all CSS here for specificity*/
+    .grid-container {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    figcaption {
+        opacity: 1;
+    }
+
+    /*Stay above this bracket*/
+}

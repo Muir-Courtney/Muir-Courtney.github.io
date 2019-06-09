@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Rustic Southeast Idaho Weather | Preston Idaho</title>
+    <meta name="description" content="Weather and other happenings in Southeast Rural Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Acme%7CPTRoboto+Slab&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small-7.css" rel="stylesheet">
+    <link href="css/medium-7.css" rel="stylesheet">
+    <link href="css/large-7.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/bootssunsmall.png" alt="Rustic Weather Logo">
+        <div class="heading">
+            <h1>Rustic Idaho Weather</h1>
+            <p class="motto">Keep Your Feet Dry</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="togglemenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="active"><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--Weather Summary-->
+        <h2>Preston Idaho</h2>
+        <div class="weathsumm">
+            <div class="hero">
+                <h3>Weather Summary</h3>
+                <p>Currently: Cloudy</p>
+                <p>High: <span id="temp">30</span>&deg;</p>
+                <p>Wind Chill: <span id="chill"></span>&deg;</p>
+                <p>Humidity: 69&#37;</p>
+                <p>Wind Speed: <span id="speed">5</span>mph</p>
+            </div>
+            <picture class="heroimg">
+                <source media="(max-width:32.5em)" srcset="images/townSm.jpg">
+                <source media="(min-width:32.5em)" srcset="images/townLg.jpg">
+                <img src="images/townLg.jpg" alt="Mountain Sky">
+            </picture>
+
+        </div>
+
+
+        <section class="fiveday">
+            <h3> Five Day Forecast</h3>
+            <div class="flex">
+
+                <div class="col1">
+                    <span class="label">Wed</span>
+                    <img src="images/sunIcon.png" alt="sun icon"><span class="temp">79&deg; F</span></div>
+                <div class="col2">
+                    <span class="label">Thur</span>
+                    <img src="images/sunIcon.png" alt="sun icon"><span class="temp">85&deg; F</span></div>
+                <div class="col3">
+                    <span class="label">Fri</span>
+                    <img src="images/sunIcon.png" alt="sun icon"><span class="temp">89&deg; F</span></div>
+                <div class="col4">
+                    <span class="label">Sat</span>
+                    <img src="images/sunIcon.png" alt="sun icon"><span class="temp">75&deg; F</span></div>
+                <div class="col5">
+                    <span class="label">Sun</span>
+                    <img src="images/sunIcon.png" alt="sun icon"><span class="temp">83&deg; F</span></div>
+            </div>
+        </section>
+        <!--Article Format-->
+        <article class="article">
+            <img class="articleimg" src="images/snowPalm.jpg" alt="Snowy Palm Tree">
+            <h3>Weird Weather Continues</h3>
+            <h5>by Weather Stalker</h5>
+            <p>The weather keeps getting weirder this year around the United States. Tornados and flooding
+                is happening across the Midwest. Thunderstorms and rain are causing havoc around the nation.
+                We have record lows in California in the spring. There is record snow in Utah with a
+                chance of skiing for the fourth of July. Las Vegas has had a cooler spring than the
+                Northeast. There was snow in the mountains for Memorial Day. Idaho is similar to other
+                places enjoying a mild spring. No one knows if this will continue or if the weather
+                will level out to normal. Any guesses as to the next crazy weather record&#63;</p>
+            <!--Article Image-->
+
+        </article>
+    </main>
+
+    <footer>
+        <div class="map">
+            <img src="images/map.jpg" alt="map">
+        </div>
+        <h3>Rustic Idaho Weather</h3>
+
+        <div class="address">
+            <p><img src="images/geotagsm.png" alt="geotag"> 30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <p>&#9742; 999.999.9999</p>
+            <p>&#9993; rusticidaho@rusticidaho.com</p>
+        </div>
+        <div class="social">
+            <img class="icon" src="images/facebookIcon.png" alt="Facebook Icon">
+            <img class="icon" src="images/pinterestIcon.png" alt="Pinterest Icon">
+            <img class="icon" src="images/twitterIcon.png" alt="Twitter Icon">
+        </div>
+
+        <div class="studentinfo">
+            <p>&copy;2019 Rustic Idaho Weather | Attributions | Courtney Muir</p>
+            <div id="date"></div>
+        </div>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+
+</html>

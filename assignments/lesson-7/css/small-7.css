@@ -1,0 +1,172 @@
+body {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    background-color: rgba(64, 90, 1);
+    border: 1px solid rgba(71, 74, 72);
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+header h1 {
+    font-family: 'Acme', cursive;
+    color: rgba(244, 241, 187);
+    margin: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.motto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgb(244, 241, 187);
+    margin-top: -10px;
+}
+
+/*Navigation*/
+.navigation {
+    list-style: none;
+    margin: 0 auto auto;
+    padding: 0px;
+    background-color: rgba(149, 176, 56);
+}
+
+/*Hide list items, show Menu hamburger*/
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.responsive li {
+    display: block;
+}
+
+a:visited {
+    color: rgba(64, 90, 1);
+}
+
+figcaption {
+    opacity: 0;
+}
+
+/* Header Sizes*/
+h2,
+h3,
+h4 {
+    font-family: 'Acme', cursive;
+    color: rgba(64, 90, 1);
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Main content Changes */
+main,
+footer {
+    max-width: 870px;
+    padding: 10px;
+    margin: auto;
+}
+
+.fiveday {
+    display: none;
+    margin: 20px;
+}
+
+p {
+    color: rgb(39, 41, 40);
+    font-family: 'Roboto Slab', serif;
+}
+
+.weathsumm {
+    position: relative;
+}
+
+.heroimg {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+    border: 1px solid rgba(71, 74, 72);
+    background-color: rgba(226, 218, 63, 0.65);
+    padding: 5px;
+    z-index: 1;
+}
+
+.article {
+    border: 1px solid rgba(71, 74, 72);
+    padding: 5px;
+    margin: 20px;
+}
+
+.articleimg {
+    margin: 15px;
+    box-shadow: 0 0 5px #474a48;
+    float: right;
+}
+
+footer {
+    background-color: rgba(149, 176, 56);
+}
+
+.studentinfo {
+    background-color: rgba(64, 90, 1);
+    padding: 2px;
+    clear: both;
+    max-width: 100%;
+}
+
+.studentinfo p,
+#date {
+    color: rgba(244, 241, 187);
+    font-size: 14px;
+}
+
+.icon {
+    max-width: 30px;
+}
