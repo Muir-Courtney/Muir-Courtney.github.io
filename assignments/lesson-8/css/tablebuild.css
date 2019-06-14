@@ -1,13 +1,11 @@
 table {
     font-family: 'Ubuntu', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 2em auto;
     text-align: center;
     border-collapse: collapse;
     box-shadow: 10px 15px 25px 0px #628ca6;
 }
 
-caption,
 tfoot td {
     background-color: #7fb9c2;
     align-content: center;
@@ -27,6 +25,10 @@ thead th {
 
 tfoot {
     font-size: .75em;
+}
+
+tbody th {
+    font-weight: bold;
 }
 
 tbody th,
