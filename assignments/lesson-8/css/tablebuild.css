@@ -1,11 +1,10 @@
-table,
-body {
+table {
     font-family: 'Ubuntu', sans-serif;
-    color: black;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-collapse: collapse;
+    box-shadow: 10px 15px 25px 0px #628ca6;
 }
 
 caption,
@@ -15,30 +14,22 @@ tfoot td {
 }
 
 thead {
-    font-weight: bold;
-    background-color: #628ca6;
-    color: #e7f0ed;
-    align-content: center;
-}
-
-table,
-caption {
-    table-layout: auto;
-    box-shadow: 10px 15px 25px 0px #628ca6;
-}
-
-caption {
     font-size: 1.75em;
     font-weight: bold;
     padding: 10px;
-    caption-side: top;
+    font-weight: bold;
+}
+
+thead th {
+    background-color: #7fb9c2;
+    padding: .5em;
 }
 
 tfoot {
     font-size: .75em;
 }
 
-th,
+tbody th,
 .goal {
     background-color: #628ca6;
     color: #e7f0ed;
@@ -53,13 +44,9 @@ tr:nth-child(even) {
 }
 
 table,
-th,
+tbody th,
 td {
     border-collapse: collapse;
     border: 2px solid lightgrey;
-}
-
-th,
-td {
     padding: 10px;
 }
