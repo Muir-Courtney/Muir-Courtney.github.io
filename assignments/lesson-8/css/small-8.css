@@ -188,10 +188,11 @@ footer {
 }
 
 .field {
-    margin: 50px;
+    margin: 30px;
     border-style: ridge;
     border-color: rgba(64, 90, 1);
     border-width: 5px;
+    border-radius: 25px;
 }
 
 .field p {
@@ -200,7 +201,7 @@ footer {
 
 .submit {
     border-style: outset;
-    border-radius: 6px;
+    border-radius: 10px;
     background-color: #26360b;
     color: #f4f1bb;
     padding: 7px;
