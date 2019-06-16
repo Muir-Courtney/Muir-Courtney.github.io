@@ -1,0 +1,99 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*Keep all CSS here for specificity*/
+    main {
+        max-width: 768px;
+    }
+
+    header h1 {
+        font-size: 35px;
+    }
+
+    /*Hide Menu button, show menu list*/
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        display: block;
+        font-size: 22px;
+    }
+
+    .navigation a:hover {
+        background-color: #26360b;
+        color: #f4f1bb;
+    }
+
+    /*Five Day Forcast Flex*/
+    .fiveday {
+        display: inline-block;
+        text-align: center;
+        background-color: #96B038;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5,
+    .col6 {
+        flex: 1 1 100%;
+        border: 2px solid #474a48;
+        text-align: center;
+    }
+
+    .label {
+        display: block;
+        padding: 2px;
+        font-weight: 700;
+        font-size: larger;
+    }
+
+    .flex div img {
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .address {
+        display: block;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .map {
+        float: right;
+        padding: 10px;
+    }
+
+    /*Active page Wayfind */
+
+
+    li.active {
+        display: block;
+        background-color: #f4f1bb;
+    }
+
+    /*Gallery*/
+    /*Grid*/
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /*Stay above this bracket*/
+}

@@ -49,7 +49,7 @@ header h1 {
 
 nav a {
     text-decoration: none;
-    color: rgba(64, 90, 1);
+    color: #1c2841;
 }
 
 nav li {
@@ -73,39 +73,34 @@ figcaption {
 }
 
 /* Header Sizes*/
-h2,
-h3,
-h4 {
-    font-family: 'Acme', cursive;
-    color: rgba(64, 90, 1);
-}
 
 h2 {
+    font-family: 'Acme', cursive;
+    color: rgba(64, 90, 1);
     font-size: 35px;
 }
 
 h3 {
+    font-family: 'Acme', cursive;
     font-size: 20px;
     text-align: left;
-}
-
-h4 {
-    font-size: 18px;
-}
-
-h5 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 14px;
-    text-align: left;
+    color: #1c2841;
     padding-left: 10px;
 }
 
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+
 /* Main content Changes */
-main,
-footer {
-    max-width: 100%;
-    padding: 10px;
+main {
     margin: auto;
+    max-width: 500px;
+    padding: 10px;
+
 }
 
 .fiveday {
@@ -123,17 +118,15 @@ p {
 }
 
 .heroimg {
-    width: auto;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     position: relative;
 }
 
 .hero {
     line-height: .5em;
     position: absolute;
-    margin-top: 5px;
-    margin-left: 50px;
+    top: 10px;
+    left: 10px;
     border: 1px solid rgba(71, 74, 72);
     background-color: rgba(226, 218, 63, 0.65);
     padding: 5px;
@@ -154,13 +147,13 @@ p {
 
 footer {
     background-color: rgba(149, 176, 56);
+    padding-top: 10px;
 }
 
 .studentinfo {
     background-color: rgba(64, 90, 1);
     padding: 2px;
     clear: both;
-    max-width: 100%;
 }
 
 .studentinfo p,
@@ -171,4 +164,45 @@ footer {
 
 .icon {
     max-width: 30px;
+}
+
+/*Form*/
+.required {
+    color: #af0606;
+}
+
+.form {
+    text-align: left;
+}
+
+.addInfo {
+    padding: 5px 10px;
+    width: 75%;
+    height: 4em;
+}
+
+.slider {
+    width: 75%;
+    height: 15px;
+    border-radius: 100px;
+}
+
+.field {
+    margin: 50px;
+    border-style: ridge;
+    border-color: rgba(64, 90, 1);
+    border-width: 5px;
+}
+
+.field p {
+    font-size: 1.1em;
+}
+
+.submit {
+    border-style: outset;
+    border-radius: 6px;
+    background-color: #26360b;
+    color: #f4f1bb;
+    padding: 7px;
+    font-family: "Acme", cursive;
 }

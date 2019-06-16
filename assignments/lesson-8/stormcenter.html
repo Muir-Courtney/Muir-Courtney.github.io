@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Rustic Southeast Idaho Weather | Storm Center</title>
+    <meta name="description" content="Report weather and other happenings in Southeast Rural Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Acme%7CPTRoboto+Slab&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small-8.css" rel="stylesheet">
+    <link href="css/medium-8.css" rel="stylesheet">
+    <link href="css/large-8.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/bootssunsmall.png" alt="Rustic Weather Logo">
+        <div class="heading">
+            <h1>Rustic Idaho Weather</h1>
+            <p class="motto">Keep Your Feet Dry</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="togglemenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form method="post" action="thanks.html"></form>
+        <h2>Storm Center</h2>
+        <fieldset class="field">
+            <p>Full Name: <span class="required">*</span> <input name="fullname" type="text" pattern="[a-zA-z]{5,}"
+                    title="Name must be at least 5 letters" placeholder="John Smith" required></p>
+            <p>Email: <input name="email" type="email" placeholder="email@address.com"></p>
+            <p>Phone Number: <span class="required">*</span> <input name="phone" type="tel" required></p>
+            <p>Zip Code: <span class="required">*</span> <input name="zip" type="number" pattern="(\d{5}([\-]\d{4})?)"
+                    required></p>
+        </fieldset>
+        <fieldset class="field">
+            <p>Storm Date: <input name="stormDate" type="date"></p>
+            <p>Storm Type: <select name="stormType" list="stormlist">
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </select>
+            </p>
+            <p>Storm Severity: <span id="ratingvalue"></span></p><input type="range" name="severity" class="slider"
+                value="5" min="1" max="10" step="1" oninput="stormRating(this.value)">
+            <p>Storm Region:<select name="region">
+                    <option value=" " disabled="" selected="">Select Region</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </p>
+        </fieldset>
+        <fieldset class="field">
+            <p>User In Danger Level:
+                <input type="radio" name="danger" value="Yes">Yes
+                <input type="radio" name="danger" value="No" checked="checked"> No
+                <input type="radio" name="danger" value="Maybe"> Maybe
+            </p>
+            <textarea class="addInfo" placeholder="Additional Information or Comments"></textarea>
+            <p><span class="required">*</span> Fields are required.</p>
+            <input type="submit" value="Submit my Storm Report" class="submit">
+        </fieldset>
+        </form>
+    </main>
+    <footer>
+        <div class=" map">
+            <img src="images/map.jpg" alt="map">
+        </div>
+        <h3>Rustic Idaho Weather</h3>
+
+        <div class="address">
+            <p><img src="images/geotagsm.png" alt="geotag"> 30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <p>&#9742; 999.999.9999</p>
+            <p>&#9993; rusticidaho@rusticidaho.com</p>
+        </div>
+        <div class="social">
+            <img class="icon" src="images/facebookIcon.png" alt="Facebook Icon">
+            <img class="icon" src="images/pinterestIcon.png" alt="Pinterest Icon">
+            <img class="icon" src="images/twitterIcon.png" alt="Twitter Icon">
+        </div>
+
+        <div class="studentinfo">
+            <p>&copy;2019 Rustic Idaho Weather | Attributions | Courtney Muir</p>
+            <div id="date"></div>
+        </div>
+    </footer>
+
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/severity.js"></script>
+</body>
+
+</html>
