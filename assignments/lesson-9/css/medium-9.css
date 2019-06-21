@@ -68,14 +68,18 @@
     }
 
     .address {
-        display: block;
         text-align: left;
-        padding: 10px;
+        margin-left: 20px;
+        line-height: .5em;
+    }
+
+    .social {
+        margin-top: -50px;
     }
 
     .map {
         float: right;
-        padding: 10px;
+        margin-right: 20px;
     }
 
     /*Active page Wayfind */
@@ -93,6 +97,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .towndata {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     /*Stay above this bracket*/
 }

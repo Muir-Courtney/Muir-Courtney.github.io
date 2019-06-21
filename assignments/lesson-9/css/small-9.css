@@ -158,10 +158,6 @@ footer {
     font-size: 14px;
 }
 
-.icon {
-    max-width: 30px;
-}
-
 /*Form*/
 .required {
     color: #af0606;
@@ -211,4 +207,30 @@ label {
     font-size: 1.1em;
     line-height: 1.3em;
     padding: 10px;
+}
+
+/*Index*/
+.townh3 {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Acme', cursive;
+    color: #1c2841;
+}
+
+.townp1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4em;
+    color: #26360b;
+    padding: 10px;
+}
+
+.townp {
+    font-size: 1.2em;
+}
+
+.towninfo {
+    border: 5px solid rgba(64, 90, 1);
+    border-radius: 10px;
+    margin: 10px;
 }
