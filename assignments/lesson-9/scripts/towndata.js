@@ -40,13 +40,13 @@ request.onload = function () {
             //Images to use based on town
             if (townArray[i].name == 'Fish Haven') {
                 image.setAttribute("src", "images/fishHaven.jpg");
-                image.setAttribute("atl", "photo of Mountains and Valley");
+                image.setAttribute("alt", "photo of Mountains and Valley");
             } else if (townArray[i].name == 'Preston') {
                 image.setAttribute("src", "images/preston.jpg");
-                image.setAttribute("atl", "Photo of Preston");
+                image.setAttribute("alt", "Photo of Preston");
             } else if (townArray[i].name == 'Soda Springs') {
                 image.setAttribute("src", "images/sodaSprings.jpg");
-                image.setAttribute("atl", "Photo of Soda Springs");
+                image.setAttribute("alt", "Photo of Soda Springs");
             }
             //add info to HTML
             article.appendChild(h3);
