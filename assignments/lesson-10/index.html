@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Rustic Southeast Idaho Weather</title>
+    <meta name="description" content="Weather and other happenings in Southeast Rural Idaho">
+    <link href="https://fonts.googleapis.com/css?family=Acme%7CPTRoboto+Slab&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small-10.css" rel="stylesheet">
+    <link href="css/medium-10.css" rel="stylesheet">
+    <link href="css/large-10.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/bootssunsmall.png" alt="Rustic Weather Logo">
+        <div class="heading">
+            <h1>Rustic Idaho Weather</h1>
+            <p class="motto">Keep Your Feet Dry</p>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="togglemenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-10.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Welcome to Rustic Idaho Weather</h2>
+        <p>Welcome! While our focus is weather, we are also part of the community.
+            Explore your town through the local events on each town page. Check out and share photos
+            captured around our beautiful area in the Gallery. Report any storm events through the
+            Storm Center. And remember: Happy Feet are dry feet, so Keep Your Feet Dry.
+        </p>
+        <div class="towndata">
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="map">
+            <img src="images/map.jpg" alt="map">
+        </div>
+        <h3>Rustic Idaho Weather</h3>
+
+        <div class="address">
+            <p><img src="images/geotagsm.png" alt="geotag"> 30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <p>&#9742; 999.999.9999</p>
+            <p>&#9993; rusticidaho@rusticidaho.com</p>
+        </div>
+        <div class="social">
+            <img class="icon" src="images/facebookIcon.png" alt="Facebook Icon">
+            <img class="icon" src="images/pinterestIcon.png" alt="Pinterest Icon">
+            <img class="icon" src="images/twitterIcon.png" alt="Twitter Icon">
+        </div>
+        <div class="studentinfo">
+            <p>&copy;2019 Rustic Idaho Weather | Attributions | Courtney Muir</p>
+            <div id="date"></div>
+        </div>
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/towndata.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+body {
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+/*Header*/
+
+header {
+    display: flex;
+    background-color: rgba(64, 90, 1);
+    border: 1px solid rgba(71, 74, 72);
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+header h1 {
+    font-family: 'Acme', cursive;
+    color: rgba(244, 241, 187);
+    margin: 20px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.motto {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: rgb(244, 241, 187);
+    margin-top: -10px;
+}
+
+/*Navigation*/
+.navigation {
+    list-style: none;
+    margin: 0 auto auto;
+    padding: 0px;
+    background-color: rgba(149, 176, 56);
+}
+
+/*Hide list items, show Menu hamburger*/
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1c2841;
+}
+
+nav li {
+    text-align: center;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav a:visited {
+    color: rgba(64, 90, 1);
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: rgba(244, 241, 187);
+}
+
+/* Header Sizes*/
+
+h2 {
+    font-family: 'Acme', cursive;
+    color: rgba(64, 90, 1);
+    font-size: 35px;
+}
+
+h3 {
+    font-family: 'Acme', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #1c2841;
+    padding-left: 10px;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+/* Main content Changes */
+main,
+footer {
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+
+
+}
+
+.fiveday {
+    display: none;
+    margin: 20px;
+}
+
+p {
+    color: rgb(39, 41, 40);
+    font-family: 'Roboto Slab', serif;
+}
+
+.weathsumm {
+    position: relative;
+}
+
+.heroimg {
+    width: 100%;
+    position: relative;
+}
+
+.hero {
+    line-height: .5em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: 1px solid rgba(71, 74, 72);
+    background-color: rgba(226, 218, 63, 0.65);
+    padding: 5px;
+    z-index: 1;
+}
+
+.article {
+    border: 1px solid rgba(71, 74, 72);
+    padding: 5px;
+    margin: 20px;
+}
+
+.articleimg {
+    margin: 15px;
+    box-shadow: 0 0 5px #474a48;
+    max-width: 100%;
+}
+
+footer {
+    background-color: rgba(149, 176, 56);
+    padding-top: 10px;
+}
+
+.studentinfo {
+    background-color: rgba(64, 90, 1);
+    padding: 2px;
+    clear: both;
+}
+
+.studentinfo p,
+.studentinfo a,
+#date {
+    color: rgba(244, 241, 187);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/*Form*/
+.required {
+    color: #af0606;
+}
+
+.form {
+    text-align: left;
+}
+
+.addInfo {
+    padding: 5px 10px;
+    width: 75%;
+    height: 4em;
+}
+
+.slider {
+    width: 75%;
+    height: 15px;
+    border-radius: 100px;
+}
+
+.field {
+    margin: 30px;
+    border-style: ridge;
+    border-color: rgba(64, 90, 1);
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+.submit {
+    border-style: outset;
+    border-radius: 10px;
+    background-color: #26360b;
+    color: #f4f1bb;
+    padding: 7px;
+    font-family: "Acme", cursive;
+    font-size: 1.2em;
+}
+
+legend {
+    font-size: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+label {
+    font-size: 1.1em;
+    line-height: 1.3em;
+    padding: 10px;
+}
+
+/*Index*/
+.townh3 {
+    text-align: center;
+    font-size: 1.6em;
+    font-family: 'Acme', cursive;
+    color: #1c2841;
+}
+
+.townp1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4em;
+    color: #26360b;
+    padding: 10px;
+}
+
+.townp {
+    font-size: 1.2em;
+}
+
+.towninfo {
+    border: 6px solid rgba(244, 241, 187);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 0px 7px rgba(149, 176, 56);
+}
+
+.townimg {
+    max-width: 100%;
+}
+
+.townevents {
+    margin: 5px;
+}
