@@ -26,7 +26,7 @@ header h1 {
 .motto {
     font-family: 'Roboto Slab', serif;
     font-size: 15px;
-    color: rgb(244, 241, 187);
+    color: rgba(244, 241, 187);
     margin-top: -10px;
 }
 
@@ -205,9 +205,9 @@ footer {
     border-style: outset;
     border-radius: 10px;
     background-color: #26360b;
-    color: #f4f1bb;
+    color: rgba(244, 241, 187);
     padding: 7px;
-    font-family: "Acme", cursive;
+    font-family: 'Acme', cursive;
     font-size: 1.2em;
 }
 
