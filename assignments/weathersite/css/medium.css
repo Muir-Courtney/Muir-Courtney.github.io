@@ -1,100 +1,19 @@
 @media only screen and (min-width: 32.5em) {
-
-    /*Keep all CSS here for specificity*/
-    main,
-    footer {
-        max-width: 960px;
-    }
-
-    header h1 {
-        font-size: 35px;
-    }
-
-    /*Hide Menu button, show menu list*/
-
-    .navigation li:first-child {
-        display: none;
-    }
-
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .navigation li {
-        display: block;
-        font-size: 22px;
-    }
-
-    .navigation a:hover {
-        background-color: #26360b;
-        color: #f4f1bb;
-    }
-
-    /*Five Day Forcast Flex*/
-    .fiveday {
-        display: inline-block;
-        background-color: #96B038;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-
-    .hero {
-        left: 100px;
-    }
-
-    .flex {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .col1,
-    .col2,
-    .col3,
-    .col4,
-    .col5,
-    .col6 {
-        flex: 1 1 100%;
-        border: 2px solid #474a48;
-        padding-right: 10px;
-    }
-
-    .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-    }
-
-    .flex div img {
-        border-radius: 10px;
-        padding: 5px;
-    }
-
-    li.active {
-        display: block;
-        background-color: #f4f1bb;
-    }
-
-    /*Gallery*/
-    /*Grid*/
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .grid-item img {
-        max-width: 100%;
-    }
-
-    .towndata {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .articleimg {
-        float: right;
-    }
-
-    /*Stay above this bracket*/
+main,footer{max-width:960px}
+header h1{font-size:35px}
+.navigation li:first-child{display:none}
+.navigation{display:flex;flex-direction:row;justify-content:space-around}
+.navigation li{display:block;font-size:22px}
+.navigation a:hover{background-color:#26360b;color:#f4f1bb}
+.fiveday{display:inline-block;background-color:#96B038;margin-bottom:10px;padding:5px}
+.hero{left:100px}
+.flex{display:flex;flex-direction:row}
+.col1,.col2,.col3,.col4,.col5,.col6{flex:1 1 100%;border:2px solid #474a48;padding-right:10px}
+.label{display:block;padding:5px;font-weight:700}
+.flex div img{border-radius:10px;padding:5px}
+li.active{display:block;background-color:#f4f1bb}
+.grid-container{display:grid;grid-template-columns:1fr 1fr}
+.grid-item img{max-width:100%}
+.towndata{display:grid;grid-template-columns:1fr 1fr}
+.articleimg{float:right}
 }
