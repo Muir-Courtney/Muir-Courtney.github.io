@@ -71,12 +71,14 @@
             </fieldset>
             <fieldset class="field">
                 <legend>Additional Information</legend>
-                <label class="label">User In Danger Level:</label>
+                <label class="label" id="danger">User In Danger Level:</label>
                 <input type="radio" name="danger" value="Yes" id="yes"><label for="yes">Yes</label>
                 <input type="radio" name="danger" value="No" checked="checked" id="no"><label for="no">No</label>
                 <input type="radio" name="danger" value="Maybe" id="maybe"><label for="maybe">Maybe</label>
-
-                <textarea class="addInfo" placeholder="Additional Information or Comments"></textarea>
+                <label for="comments">
+                    <p>Additional Comments:</p>
+                </label><textarea class="addInfo" id="comments"
+                    placeholder="Additional Information or Comments"></textarea>
                 <p><span class="required">*</span> Fields are required.</p>
                 <input type="submit" value="Submit my Storm Report" class="submit">
             </fieldset>

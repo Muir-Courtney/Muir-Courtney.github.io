@@ -25,7 +25,7 @@ header h1 {
 
 .motto {
     font-family: 'Roboto Slab', serif;
-    font-size: 15px;
+    font-size: 20px;
     color: rgba(244, 241, 187);
     margin-top: -10px;
 }
@@ -73,6 +73,11 @@ footer a:visited {
     color: rgba(244, 241, 187);
 }
 
+footer a:hover {
+    background-color: #f4f1bb;
+    color: #26360b;
+}
+
 /* Header Sizes*/
 
 h2 {
@@ -86,7 +91,7 @@ h3 {
     font-size: 20px;
     text-align: center;
     color: #1c2841;
-    padding-left: 10px;
+
 }
 
 h4 {
@@ -112,6 +117,10 @@ footer {
 p {
     color: rgb(39, 41, 40);
     font-family: 'Roboto Slab', serif;
+}
+
+footer h3 {
+    text-align: left;
 }
 
 .weathsumm {
@@ -234,13 +243,10 @@ label {
 .townp1 {
     text-align: center;
     font-style: italic;
-    font-size: 1.4em;
+    font-size: .9em;
     color: #26360b;
     padding: 10px;
-}
 
-.townp {
-    font-size: 1.2em;
 }
 
 .towninfo {
