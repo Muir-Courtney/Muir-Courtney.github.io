@@ -11,7 +11,7 @@
 
     main,
     footer {
-        max-width: 960px;
+        max-width: 1080px;
     }
 
     .towndata {
@@ -20,7 +20,7 @@
 
     .hero {
         top: 10px;
-        left: 100px;
+        left: 150px;
     }
 
     /*Stay above this bracket*/

@@ -3,7 +3,7 @@
     /*Keep all CSS here for specificity*/
     main,
     footer {
-        max-width: 768px;
+        max-width: 960px;
     }
 
     header h1 {
@@ -35,10 +35,13 @@
     /*Five Day Forcast Flex*/
     .fiveday {
         display: inline-block;
-        text-align: center;
         background-color: #96B038;
         margin-bottom: 10px;
         padding: 5px;
+    }
+
+    .hero {
+        left: 100px;
     }
 
     .flex {
@@ -54,7 +57,7 @@
     .col6 {
         flex: 1 1 100%;
         border: 2px solid #474a48;
-        text-align: center;
+        padding-right: 10px;
     }
 
     .label {
@@ -68,24 +71,6 @@
         padding: 5px;
     }
 
-    .address {
-        text-align: left;
-        margin-left: 20px;
-        line-height: .5em;
-    }
-
-    .social {
-        margin-top: -50px;
-    }
-
-    .map {
-        float: right;
-        margin-right: 20px;
-    }
-
-    /*Active page Wayfind */
-
-
     li.active {
         display: block;
         background-color: #f4f1bb;
@@ -96,7 +81,10 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
 
+    .grid-item img {
+        max-width: 100%;
     }
 
     .towndata {
