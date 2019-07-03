@@ -58,9 +58,9 @@
                         <option value="Tornado">Tornado</option>
                     </select>
                 </label>
-                <label class="label">Storm Severity: <span id="ratingvalue"></span></label><input type="range"
-                    name="severity" class="slider" value="5" min="1" max="10" step="1"
-                    oninput="stormRating(this.value)">
+                <label for="rating" class="label">Storm Severity: </br><span id="ratingvalue"></span><input type="range"
+                        id="rating" class="slider" value="5" min="1" max="10" step="1"
+                        oninput="stormRating(this.value)"></label>
                 <label class="label">Storm Region: <select name="region">
                         <option value=" " disabled="" selected="">Select Region</option>
                         <option value="Preston">Preston</option>
