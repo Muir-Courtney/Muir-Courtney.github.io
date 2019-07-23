@@ -1,36 +1,60 @@
-let closure = document.getElementById('closure');
-
-const requestURL = "https://muir-courtney.github.io/assignments/templesite/templedata.json";
-let request = new XMLHttpRequest();
+var requestURL = "https://muir-courtney.github.io/assignments/templesite/scripts/templedata.json";
+var request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
-
 request.onload = function () {
-
-    let responsedata = request.response;
-    let temple = responsedata['temples'];
-    for (let i = 0; i < temples.length; i++) {
-        if (temple.name[i] == "Boston") {
-            let closed = temple[i].closures;
-            let eventcount = 0;
-
-            for (let j = 0; j < closed.length; j++) {
-                let moroni = closed[eventcount];
-                eventcount++;
-
-                let myArticle = document.createElement('article');
-                let myparagraph = document.createElement('p');
-
-                myparagraph.textContent = moroni;
-                myArticle.appendChild(myparagraph);
-                closure.appendChild(myArticle);
-            }
-        }
-    }
+    var templeData = request.response;
+    templeBoston(templeData);
 }
 
+function templeBoston(jsonObj) {
+    var temples = jsonObj['temples']
+    var i = 0;
+    var name = temples[i].name;
+
+    for (i = 0; i < temples.length; i++) {
+        var name = temples[i].name;
+        if (name == "Boston") {
+            document.getElementById("services").innerHTML = "<li>" + temples[i].services[0] + "</li> <li>" +
+                temples[i].services[1] + "</li> <li>" + temples[i].services[2] + "</li> <li>" + temples[i].services[3] + "</li>";
+
+            for (e = 0; e < temples[i].endowment.length; e++) {
+                var node = document.createElement("li");
+                var textnode = document.createTextNode(temples[i].endowment[e]);
+                node.appendChild(textnode);
+                document.getElementById("endowment").appendChild(node);
+            }
+            for (b = 0; b < temples[i].baptism.length; b++) {
+                var node = document.createElement("li");
+                var textnode = document.createTextNode(temples[i].baptism[b]);
+                node.appendChild(textnode);
+                document.getElementById("baptism").appendChild(node);
+            }
+            for (n = 0; n < temples[i].initiatory.length; n++) {
+                var node = document.createElement("li");
+                var textnode = document.createTextNode(temples[i].initiatory[n]);
+                node.appendChild(textnode);
+                document.getElementById("initiatory").appendChild(node);
+            }
+            for (j = 0; j < temples[i].sealing.length; j++) {
+                var node = document.createElement("li");
+                var textnode = document.createTextNode(temples[i].sealing[j]);
+                node.appendChild(textnode);
+                document.getElementById("sealing").appendChild(node);
+            }
+
+            for (x = 0; x < temples[i].closures.length; x++) {
+                var node = document.createElement("li");
+                var textnode = document.createTextNode(temples[i].closures[x]);
+                node.appendChild(textnode);
+                document.getElementById("closures").appendChild(node);
+            }
+        }
+
+    }
+}
 
 
 

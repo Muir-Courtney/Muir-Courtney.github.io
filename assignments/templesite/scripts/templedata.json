@@ -45,7 +45,10 @@
                 "Thursday, 31 December 2020"
             ],
             "services": [
-                "Clothing Rental Available", "Cafeteria Available", "No patron housing available", "Distribution center nearby"
+                "Clothing Rental Available",
+                "Cafeteria Available",
+                "No Patron Housing Available",
+                "Distribution Center nearby"
             ]
         },
         {
@@ -94,8 +97,8 @@
             "services": [
                 "Clothing Rental Available",
                 "Cafeteria Available",
-                "Patron housing available",
-                "Distribution center nearby"
+                "Patron Housing Available",
+                "Distribution Center nearby"
             ]
         },
         {
@@ -150,9 +153,9 @@
             ],
             "services": [
                 "Clothing Rental Available",
-                "No cafeteria Available",
-                "No patron housing available",
-                "Distribution center nearby"
+                "No Cafeteria Available",
+                "No Patron Housing Available",
+                "Distribution Center nearby"
             ]
         },
         {
@@ -208,9 +211,9 @@
             ],
             "services": [
                 "Clothing Rental Available",
-                "No cafeteria Available",
-                "No patron housing available",
-                "Distribution center nearby"
+                "No Cafeteria Available",
+                "No Patron Housing Available",
+                "Distribution Center nearby"
             ]
         }
     ]
