@@ -1,7 +1,23 @@
 @media only screen and (min-width: 68.0em) {
-.grid-container{grid-template-columns:1fr 1fr 1fr}
-figure:hover{box-shadow:0 0 10px #474a48}
-main,footer{max-width:1080px}
-.towndata{grid-template-columns:1fr 1fr 1fr}
-.hero{top:10px;left:150px}
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+    figure:hover {
+        box-shadow: 0 0 10px #474a48
+    }
+
+    main,
+    footer {
+        max-width: 1080px
+    }
+
+    .towndata {
+        grid-template-columns: 1fr 1fr 1fr
+    }
+
+    .hero {
+        top: 10px;
+        left: 150px
+    }
 }

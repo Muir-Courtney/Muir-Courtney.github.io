@@ -1,0 +1,217 @@
+{
+    "temples": [{
+            "name": "Las Vegas",
+            "endowment": [
+                "Tuesday: 5:30am - 7:30pm starting every hour. 7:00pm Spanish session",
+                "Wednesday: 5:30am - 7:30pm starting every hour, plus a 7:00pm session",
+                "Thursday: 5:30am - 7:30pm starting every hour. 7:00pm Spanish session",
+                "Friday: 5:30am - 7:30pm starting every hour, plus a 7:00pm session",
+                "Saturday: 5:30am - 6:30am; 8:30am - 7:30pm starting every hour.  7:30am Spanish session. (Second Saturday: 6:30am Samoan session)"
+            ],
+            "baptism": [
+                "Tuesday: 7:30am - 8:00pm Walk-ins and Appointments",
+                "Wednesday: 7:30am - 8:00pm Walk-ins and Appointments",
+                "Thursday: 7:30am - 8:00pm Walk-ins and Appointments",
+                "Friday: 7:30am - 3:00pm Walk-ins and Appointments",
+                "Friday: 3:00pm - 8:00pm Family Priority Time; Walk-ins only",
+                "Saturday: 7:30am - 1:30pm Walk-ins and Appointments",
+                "Saturday: 1:30pm - 6:30pm Family Priority Time; Walk-ins only"
+            ],
+            "initiatory": [
+                "Tuesday thru Friday: 7:00am - 8:00pm Walk-ins",
+                "Saturday: 7:00am - 7:00pm Walk-ins only"
+            ],
+            "sealing": [
+                "Tuesday thru Friday: 8:00am - 8:00pm Walk-ins",
+                "Saturday: 8:00am - 7:00pm Walk-ins only"
+            ],
+            "closures": [
+                "Monday, 8 July 2019 - Monday, 5 August 2019",
+                "Monday, 9 September 2019 - Monday, 18 November 2019",
+                "Wednesday, 27 November 2019 (Limited Hours)",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 6 January 2020 - Monday, 20 January 2020",
+                "Saturday, 4 April 2020",
+                "Saturday, 4 July 2020",
+                "Monday, 6 July 2020 - Monday, 3 August 2020",
+                "Saturday, 3 October 2020",
+                "Wednesday, 25 November 2020 (Limited Hours)",
+                "Thursday, 26 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Thursday, 31 December 2020"
+            ],
+            "services": [
+                "Clothing Rental Available", "Cafeteria Available", "No patron housing available", "Distribution center nearby"
+            ]
+        },
+        {
+            "name": "Los Angeles",
+            "endowment": [
+                "Tuesday: 5:30am, 6:45am, 8:00am, 9:15am, 10:30am, 11:45am, 1:00pm, 2:15pm, 3:30pm, 5:00pm, 6:15pm, 7:30pm",
+                "Wednesday: 6:45am, 8:00am, 9:15am, 10:30am, 11:45am, 1:00pm, 2:15pm, 3:30pm, 5:00pm, 6:15pm, 7:30pm (First Wednesday Tongan session)",
+                "Thursday: 6:45am, 8:00am, 9:15am, 10:30am, 11:45am, 1:00pm, 2:15pm, 3:30pm, 5:00pm, 6:15pm, 7:30pm (Fourth Thursday Spanish session)",
+                "Friday: 6:45am, 8:00am, 9:15am, 10:30am, 11:45am, 1:00pm, 2:15pm, 3:30pm, 5:00pm, 6:15pm, 7:30pm",
+                "Saturday: 5:30am, 6:30am, 7:30am, 8:30am, 9:30am, 10:30am, 11:45am, 1:00pm, 2:15pm, 3:30pm, 5:00pm. 10:30am Spanish session",
+                "First Saturday: 5:30am Samoan session",
+                "First Saturday: 7:30am Spanish session",
+                "Second and Fourth Saturdays: 6:30am Samoan session",
+                "Second Saturday: 11:45am ASL session",
+                "Third Saturday: 6:30am Tongan session",
+                "Third Saturday: 7:30am Spanish session",
+                "Third Saturday: 3:30pm Mandarin session",
+                "Fourth Saturday: 8:30am Korean session"
+            ],
+            "baptism": [
+                "Tuesday: 7:30am - 7:00pm Walk-ins and Appointments",
+                "Tuesday: 7:00pm - 8:30pm Family Priority Time; Walk-ins and Appointments",
+                "Wednesday: 7:30am - 8:00pm Walk-ins and Appointments",
+                "Thursday: 7:30am - 8:00pm Walk-ins and Appointments",
+                "Friday: 7:30pm - 8:00pm Walk-ins and Appointments",
+                "Saturday: 6:00am - 6:30pm Walk-ins and Appointments",
+                "First and Third Saturdays are Family Priority Time from 4:00pm-6:30pm"
+            ],
+            "initiatory": [
+                "Pleases call the temple directly for Initiatory Schedule and Information."
+            ],
+            "sealing": [
+                "Tuesday thru Saturday: 6:00am - 8:00pm"
+            ],
+            "closures": [
+                "Tuesday, 16 July 2019 - Monday, 29 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Friday, 29 November 2019 (Limited Hours)",
+                "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
+                "Tuesday, 31 December 2019",
+                "Monday, 17 February 2020 - Monday, 2 March 2020",
+                "Monday, 6 July 2020 - Monday, 20 July 2020"
+            ],
+            "services": [
+                "Clothing Rental Available",
+                "Cafeteria Available",
+                "Patron housing available",
+                "Distribution center nearby"
+            ]
+        },
+        {
+            "name": "Boston",
+            "endowment": [
+                "Tuesday: 8:00am - 3:00pm; 4:30pm - 7:30pm starting every hour. (First Tuesday: 7:30pm Portuguese session)",
+                "Wednesday: 8:00am - 3:00pm; 4:30pm - 7:30pm starting every hour. (Third Wednesday: 7:30pm Spanish session)",
+                "Thursday: 8:00am - 3:00pm; 4:30pm - 7:30pm starting every hour.",
+                "Friday:8:00am - 3:00pm; 4:30pm - 7:30pm starting every hour.",
+                "Saturday: 7:00am - 7:00pm starting every hour. (Fourth Saturday: 11:00am Haitian session)"
+            ],
+            "baptism": [
+                "Tuesday thru Friday: 8:00am - 10:00am Walk-ins and Appointments",
+                "Tuesday thru Friday: 10:00am - 12:00pm Family Priority Time - Walk-ins Only",
+                "Tuesday thru Friday: 12:00pm - 4:00pm Walk-ins and Appointments",
+                "Tuesday thru Friday: 4:00pm - 6:00pm Family Priority Time - Walk-ins Only",
+                "Tuesdya thru Friday: 6:00pm - 9:30pm Church Groups - Appointments Only",
+                "Saturday: 8:00am - 10:00am -  Family Priority Time - Walk-ins Only",
+                "Saturday: 10:00am - 2:00pm -  Church Groups - Appointments Only",
+                "Saturday: 2:00pm - 4:00pm -  Family Priority Time - Walk-ins Only",
+                "Saturday: 4:00pm - 9:00pm -  Church Groups - Appointments Only"
+
+            ],
+            "initiatory": [
+                "Tuesday thru Friday: 8:00am - 9:30pm Walk-ins and Appointments",
+                "Saturday: 8:00am -8:30pm Walk-ins and Appointments"
+            ],
+            "sealing": [
+                "Tuesday thru Friday: 9:00am - 9:30pm Walk-ins and Appointments",
+                "Saturday: 9:00am - 8:00pm Walk-ins and Appointments"
+            ],
+            "closures": [
+                "Monday, 8 July 2019 - Monday, 22 July 2019",
+                "Saturday, 5 October 2019",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Tuesday, 31 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 6 January 2020 - Monday, 20 January 2020",
+                "Saturday, 4 April 2020",
+                "Saturday, 4 July 2020",
+                "Monday, 6 July 2020 - Monday, 20 July 2020",
+                "Saturday, 3 October 2020",
+                "Wednesday, 25 November 2020",
+                "Thursday, 26 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Thursday, 31 December 2020",
+                "Friday, 1 January 2021"
+            ],
+            "services": [
+                "Clothing Rental Available",
+                "No cafeteria Available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ]
+        },
+        {
+            "name": "Manhattan",
+            "endowment": [
+                "Tuesday: 11:00am; 12:30pm; 2:00pm; 6:15pm; 7:45pm Walk-ins Only",
+                "Wednesday: 11:00am; 12:30pm; 2:00pm; 6:15pm; 7:45pm Walk-ins Only",
+                "Thursday: 6:30am; 8:00am; 11:00am; 12:30pm; 2:00pm; 6:15pm; 7:45pm Walk-ins Only",
+                "Friday: 11:00am; 12:30pm; 2:00pm; 4:00pm; 5:30pm; 7:00pm; 8:30pm Walk-ins Only",
+                "Saturday: 8:00am; 11:00am; 2:00pm; 3:30pm; 5:00pm Walk-ins Only",
+                "Saturday: 6:30am; 9:30am; 12:30pm Spanish sessions. Walk-ins Only",
+                "Second Saturday: 2:00pm Korean session",
+                "Third Saturday: 2:00pm Portuguese session"
+            ],
+            "baptism": [
+                "Tuesday: 10:45am - 11:45am; 2:15pm - 3:15pm; 4:00pm - 4:30pm; 6:00pm - 7:30pm Appointments Only",
+                "Wednesday: 10:45am - 11:45am; 2:15pm - 3:15pm; 4:00pm - 4:30pm; 6:00pm - 7:30pm Appointments Only",
+                "Thursday: 6:45am - 7:45am; 10:45am - 11:45am; 2:15pm - 3:15pm; 4:00pm - 4:30pm; 6:00pm - 7:30pm Appointments Only",
+                "Friday: 10:45am - 11:45am; 2:15pm - 3:15pm; 4:00pm - 5:00pm; 6:30pm - 8:00pm Appointments Only",
+                "Saturday: 6:30am - 12:30pm; 1:30pm - 4:00pm Appointments Only"
+            ],
+            "initiatory": [
+                "Tuesday: 10:45am - 5:00pm; 6:00pm - 8:00pm Walk-ins only",
+                "Wednesday: 10:45am - 5:00pm; 6:00pm - 8:00pm Walk-ins only",
+                "Thursday: 6:15am - 5:00pm; 6:00pm - 8:00pm Walk-ins only",
+                "Friday: 10:45am - 8:45pm Walk-ins Only",
+                "Saturday: 6:00am - 5:15pm Walk-ins Only"
+            ],
+            "sealing": [
+                "Tuesday: 12:45pm - 1:30pm; 2:15pm - 3:00pm; 8:00pm - 8:45pm Appointments Only",
+                "Wednesday: 12:45pm - 1:30pm; 2:15pm - 3:00pm; 8:00pm - 8:45pm Appointments Only",
+                "Thursday: 8:45am - 9:45am; 12:45pm - 1:30pm; 2:15pm - 3:00pm; 8:00pm - 8:45pm Appointments Only",
+                "Friday: 12:45pm - 1:30pm; 4:00pm - 6:00pm; 7:30pm - 9:00pm Appointments Only",
+                "Saturday: 8:00am - 5:30pm Appointments Only"
+            ],
+            "closures": [
+                "Tuesday, 23 July 2019 - Monday, 28 October 2019",
+                "Wednesday, 27 November 2019",
+                "Thursday, 28 November 2019",
+                "Tuesday, 24 December 2019",
+                "Wednesday, 25 December 2019",
+                "Wednesday, 1 January 2020",
+                "Monday, 3 February 2020 - Monday, 17 February 2020",
+                "Saturday, 4 April 2020",
+                "Saturday, 4 July 2020",
+                "Monday, 27 July 2020 - Monday, 10 August 2020",
+                "Saturday, 3 October 2020",
+                "Wednesday, 25 November 2020",
+                "Thursday, 26 November 2020",
+                "Thursday, 24 December 2020",
+                "Friday, 25 December 2020",
+                "Thursday, 31 December 2020"
+            ],
+            "services": [
+                "Clothing Rental Available",
+                "No cafeteria Available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ]
+        }
+    ]
+}

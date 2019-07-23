@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Reservations</title>
+    <meta name="description" content="Reservations for accommodations near The Church of Latter-day Saints Temples">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes%7CPlayfair+Display%7CPoppins&display=swap"
+        rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
+        <h1>Temple Inn and Suites</h1>
+        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+    </header>
+    <nav>
+        <ul class="mainnav">
+            <li><a href="temples.html">Temples</a>
+                <ul>
+                    <li><a href="bostonTemple.html">Boston</a></li>
+                    <li><a href="lvTemple.html">Las Vegas</a></li>
+                    <li><a href="laTemple.html">Los Angeles</a></li>
+                    <li><a href="manhattanTemple.html">Manhattan</a></li>
+                </ul>
+            </li>
+            <li><a href="reservation.html">Reservations</a></li>
+            <li><a href="services.html">Services</a>
+                <ul>
+                    <li><a href="weddings.html">Weddings</a></li>
+                    <li><a href="missionaries.html">Missionaries</a></li>
+                    <li><a href="families.html">Families</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Book Your Stay</h2>
+            <p>We look forward to seeing you. Please make reservations as soon as possible as our rooms, suites, and
+                reservation hall do book quickly. We will contact you back </p>
+        </section>
+        <section>
+            <form action="thanks.html">
+                <h3>Reservation Form</h3>
+                <ul class="resform">
+                    <li>
+                        <label class="label">Full Name <span class="required">*</span> <input name="fullname"
+                                type="text" pattern="[a-zA-z]{5,}" title="Name must be at least 5 letters"
+                                required></label>
+                    </li>
+                    <li>
+                        <label class="label">Phone Number <span class="required">*</span> <input name="phone" type="tel"
+                                required placeholder="(555)123-4567"></label></li>
+                    <li>
+                        <label class="label">Email <input name="email" type="email"
+                                placeholder="email@address.com"></label>
+                    </li>
+                    <li>
+                        <label class="label">Home State or Country <input name="home" type="text"></label>
+                    </li>
+                    <li>
+                        <label class="label">Area <select name="area">
+                                <option value="" disabled="" selected="">Select Area</option>
+                                <option value="Boston">Boston</option>
+                                <option value="Las Vegas">Las Vegas</option>
+                                <option value="Los Angeles">Los Angeles</option>
+                                <option value="Manhattan">Manhattan</option>
+                            </select>
+                    </li>
+                    <li>
+                        <label for="date">Desired Date <span class="required">*</span><input type="date" name="date"
+                                required></label>
+                    </li>
+                    <li>
+                        <p>Room, Suite, Reception Hall?</p>
+                        <label for="room">Room </label>
+                        <input type="radio" id="room" name="choice" value="room" checked>
+                        <label for="suite">Suite </label>
+                        <input type="radio" id="suite" name="choice" value="suite">
+                        <label for="suite">Reception Hall </label>
+                        <input type="radio" id="hall" name="choice" value="hall">
+                    </li>
+                    <li>
+                        <label for="amount">Number of Rooms <input name="amount" type="text"></label>
+                    </li>
+                    <li>
+                        <label for="subject">Special accommodations or comments</label>
+                        <textarea name="message" type="text"
+                            placeholder="Use this space for any special needs or desires that you would like to communicate to us including optional dates."></textarea>
+                    </li>
+                </ul>
+            </form>
+            <p><span class="required">*</span> Fields are required.</p>
+    </main>
+    <footer>
+        <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
+    </footer>
+</body>
+
+</html>
