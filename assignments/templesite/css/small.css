@@ -1,0 +1,152 @@
+main {
+    margin: auto;
+    max-width: 550px;
+    padding: 10px;
+}
+
+body {
+    background-color: #fff5ed;
+    text-align: left;
+    font-family: "Poppins";
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cbb8a9;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap
+}
+
+footer {
+    background-color: #806c5d;
+    padding: 10px;
+    text-align: right;
+    color: #fff5ed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: #a9c8cc;
+    color: #507a80;
+}
+
+footer a:visited {
+    color: #fff5ed;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.address {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 16px;
+    line-height: .25;
+    text-align: left;
+}
+
+.mainnav {
+    list-style: none;
+    margin: 0 auto auto;
+    padding: 10px;
+    background-color: #806c5d;
+}
+
+.mainnav li:first-child {
+    display: block;
+}
+
+.mainnav li {
+    display: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff5ed;
+}
+
+nav li {
+    text-align: left;
+    display: block;
+    font-size: 18px;
+}
+
+.mainnav a:hover {
+    background-color: #a9c8cc;
+    color: #507a80;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    text-align: left;
+}
+
+.one {
+    display: flex;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 48%;
+    flex: 1 0 15em;
+    padding: 5px;
+}
+
+.book {
+    border-radius: 12px;
+    background-color: #507a80;
+    padding: 10px;
+    color: #fff5ed;
+}
+
+button:hover {
+    background-color: #fff5ed;
+    color: #507a80;
+}
+
+.quote {
+    background-color: #a9c8cc;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.button {
+    background-color: #806c5d;
+    border-radius: 12px;
+    padding: 10px;
+    color: #fff5ed;
+}
+
+.templedata {
+    font-family: "Poppins", serif;
+    font-weight: normal;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three .triad {
+    width: 31%;
+}

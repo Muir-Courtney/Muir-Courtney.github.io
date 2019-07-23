@@ -18,15 +18,21 @@
 
 <header>
     <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-    <h1>Temple Inn and Suites</h1>
-    <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+    <div class="heading">
+        <h1>Temple Inn and Suites</h1>
+        <p class="address">4800 Montgomery Ln #300 </p>
+        <p class="address">Bethesda, MD 20814</p>
+        <p class="address">(800) 836-7537</p>
+    </div>
 </header>
 <nav>
     <ul class="mainnav">
+        <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+        <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
         <li><a href="temples.html">Temples</a>
             <ul>
                 <li><a href="bostonTemple.html">Boston</a></li>
-                <li><a href="lvTemple.html">Las Vegas</a></li>
+                <li class="active"><a href="lvTemple.html">Las Vegas</a></li>
                 <li><a href="laTemple.html">Los Angeles</a></li>
                 <li><a href="manhattanTemple.html">Manhattan</a></li>
             </ul>
@@ -44,52 +50,77 @@
 </nav>
 <main>
     <h2>Las Vegas Nevada Temple</h2>
+    <section class="one">
+        <picture class="column">
+            <source media="(max-width:32.5em)" srcset="images/lvnvsm.jpg">
+            <source media="(min-width:32.5em)" srcset="images/lvmvlg.jpg">
+            <img src="images/lvnvlg.jpg" alt="Las Vegas Temple photo">
+        </picture>
+        <article class="column">
+            <h3>Address</h3>
+            <p> 827 Temple View Drive Las Vegas, Nevada 89110</p>
+            <h3>Telephone</h3>
+            <a href="tel:1-702-452-5011">1-702-452-5011</a>
+            <h3>History</h3>
+            <p>The Las Vegas Nevada Temple was announced on April 7, 1984. The groundbreaking occurred on November 30,
+                1985.
+                President Gordon B. Hinckley dedicated the temple on December 16, 1989. The open house was 23 days long
+                and
+                served 297,480 visitors. The family history center was added in 2012. </p>
+        </article>
+    </section>
     <form action="reservation.html"><button>Book Now</button></form>
-    <img src="images/lvnvlg.jpg" alt="Las Vegas Temple photo">
-    <h3>Address</h3>
-    <p> 827 Temple View Drive Las Vegas, Nevada 89110</p>
-    <h3>Telephone</h3>
-    <a href="tel:1-702-452-5011">1-702-452-5011</a>
-    <h3>History</h3>
-    <p>The Las Vegas Nevada Temple was announced on April 7, 1984. The groundbreaking occurred on November 30, 1985.
-        President Gordon B. Hinckley dedicated the temple on December 16, 1989. The open house was 23 days long and
-        served 297,480 visitors. The family history center was added in 2012. </p>
-    <div class="templedata">
-        <h3>Services</h3>
-        <ul id="services">
-        </ul>
+    <section class="one">
+        <div class="weather triad">
+            <h3>Weather Summary</h3>
+            <p>Currently: <span id="cc-alt"></span></p>
+            <p>High: <span id="temp"></span>&deg;</p>
+            <p>Humidity: <span id="humid"></span>&#37;</p>
+            <p>Wind Speed: <span id="speed"></span> mph</p>
+            <p>Wind Chill: <span id="chill"></span>&deg;</p>
+        </div>
+        <div class="templedata triad">
+            <h3>Services</h3>
+            <ul id="services">
+            </ul>
+        </div>
+    </section>
+    <div class="three">
+        <section class="triad">
+            <div class="templedata">
+                <h3>Endowment Schedule</h3>
+                <ul id="endowment">
+                </ul>
+            </div>
+        </section>
+        <section class="triad">
+            <div class="templedata">
+                <h3>Baptism Schedule</h3>
+                <ul id="baptism">
+                </ul>
+            </div>
+        </section>
+        <section class="triad">
+            <div class="templedata">
+                <h3>Initiatory Schedule</h3>
+                <ul id="initiatory">
+                </ul>
+            </div>
+
+            <div class="templedata">
+                <h3>Sealing Schedule</h3>
+                <ul id="sealing">
+                </ul>
+            </div>
+        </section>
     </div>
-    <div class="templedata">
-        <h3>Endowment Schedule</h3>
-        <ul id="endowment">
-        </ul>
-    </div>
-    <div class="templedata">
-        <h3>Baptism Schedule</h3>
-        <ul id="baptism">
-        </ul>
-    </div>
-    <div class="templedata">
-        <h3>Initiatory Schedule</h3>
-        <ul id="initiatory">
-        </ul>
-    </div>
-    <div class="templedata">
-        <h3>Sealing Schedule</h3>
-        <ul id="sealing">
-        </ul>
-    </div>
-    <div class="templedata" id="closures">
-        <h3>Temple Closure</h3>
-    </div>
-    <div class="weather">
-        <h3>Weather Summary</h3>
-        <p>Currently: <span id="cc-alt"></span></p>
-        <p>High: <span id="temp"></span>&deg;</p>
-        <p>Humidity: <span id="humid"></span>&#37;</p>
-        <p>Wind Speed: <span id="speed"></span> mph</p>
-        <p>Wind Chill: <span id="chill"></span>&deg;</p>
-    </div>
+    </article>
+    <section class="one">
+        <div class="templedata column">
+            <h3>Temple Closure</h3>
+            <ul id="closures"></ul>
+        </div>
+    </section>
 </main>
 <footer>
     <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>

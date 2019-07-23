@@ -19,11 +19,17 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li class="active"><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
@@ -45,12 +51,7 @@
     </nav>
     <main>
         <h2> Welcome</h2>
-        <picture>
-            <source media="(max-width:32.5)" srcset="images/pillowsbedSm.jpeg">
-            <source media="(min-width:32.5)" srcset="images/pillowsbedLg.jpg">
-            <img src="images/pillowsbedlg.jpg" alt="picture of a bed with pillows">
-        </picture>
-        <form action="reservation.html"><button>Book Now</button></form>
+
         <p>Temples have a very important place in the Church of Jesus Christ of Latter-day Saints.
             We are sealed as families in the temple, we visit to do work for the dead, we renew our
             covenants, and we serve the Lord in the temple.
@@ -58,42 +59,61 @@
         <p>We cater to temple workers, patrons, and their families. We have specfic amenties to make your temple visit
             easier. We do welcome anyone who desires to stay that is willing to abide by our policies and terms.
         </p>
-        <q>We continue to build temples. We desire that as many members as
-            possible have an opportunity to attend the temple without having to
-            travel inordinate distances.</q>
-        <p>--Thomas S. Monson </p>
-        <p>While we wait for a temple to be an easy day trip for everyone,
-            we at Temple Inn and Suites desire to make your temple day easier.
-            Come visit us today and experience our services for patrons including:
-            <ul>
-                <li>Free access to changing rooms and bathrooms</li>
-                <li>Low-cost, short-term babysitting in our playroom</li>
-                <li>Temple History themed reception and sitting area</li>
-                <li>Long-term kitchenette suites for full-time temple missionaries</li>
-                <li>Reception Hall</li>
-                <li>Family Search Center</li>
-                <li>Temple Shuttle</li>
-            </ul>
-            Whether you need a few hours, a few days, or a few years, we are here for you. Call now to book your stay:
-            <a href="tel:1-800-896-7537">1-800-Temples (836-7537)</a>
-        </p>
-        <picture>
-            <source media="(max-width:32.5)" srcset="images/lvnv.jpg">
-            <source media="(min-width:32.5)" srcset="images/lvnv.jpg">
-            <img src="images/lvnvNight.jpg" alt="picture of a temple">
-        </picture>
-        <h3>Las Vegas Nevada Temple</h3>
-        <p>With spires pointing towards heaven the Las Vegas temple sits on the east
-            side of Las Vegas, away from the Las Vegas Strip. A haven in the city for
-            all who visit the grounds or inside, the Las Vegas temple is a spiritual beacon
-            in &quot;Sin City&quot;.
-        </p>
-        <form action="temples.html"><button>More Locations</button></form>
+        <div class="quote">
+            <q>We continue to build temples. We desire that as many members as
+                possible have an opportunity to attend the temple without having to
+                travel inordinate distances.</q>
+            <p>--Thomas S. Monson </p>
+        </div>
+        <form action="reservation.html"><button class="book">Book Now</button></form>
+        <section class="one">
+            <picture class="column">
+                <source media="(max-width:32.5em)" srcset="images/pillowsbedSm.jpg">
+                <source media="(min-width:32.5em)" srcset="images/pillowsbedLg.jpg">
+                <img src="images/pillowsbedlg.jpg" alt="picture of a bed with pillows">
+            </picture>
+            <article class="column">
+                <p>While we wait for a temple to be an easy day trip for everyone,
+                    we at Temple Inn and Suites desire to make your temple day easier.
+                    Come visit us today and experience our services for patrons including:</p>
+                <ul>
+                    <li>Free access to changing rooms and bathrooms</li>
+                    <li>Low-cost, short-term babysitting in our playroom</li>
+                    <li>Temple History themed reception and sitting area</li>
+                    <li>Long-term kitchenette suites for full-time temple missionaries</li>
+                    <li>Reception Hall</li>
+                    <li>Family Search Center</li>
+                    <li>Temple Shuttle</li>
+                </ul>
+                <p>Whether you need a few hours, a few days, or a few years, we are here for you. Call now to book your
+                    stay:
+                    <a href="tel:1-800-896-7537">1-800-Temples (836-7537)</a>
+                </p>
+            </article>
+        </section>
+        <section class="one">
+
+            <article class="column">
+                <h3>Las Vegas Nevada Temple</h3>
+                <p>With spires pointing towards heaven the Las Vegas temple sits on the east
+                    side of Las Vegas, away from the Las Vegas Strip. A haven in the city for
+                    all who visit the grounds or inside, the Las Vegas temple is a spiritual beacon
+                    in &quot;Sin City&quot;.
+                </p>
+                <form action="temples.html"><button class="button">More Locations</button></form>
+            </article>
+            <picture class="column">
+                <source media="(max-width:32.5em)" srcset="images/lvnvNightsm.jpg">
+                <source media="(min-width:32.5em)" srcset="images/lvnvNightlg.jpg">
+                <img src="images/lvnvNightlg.jpg" alt="picture of a temple">
+            </picture>
+        </section>
 
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

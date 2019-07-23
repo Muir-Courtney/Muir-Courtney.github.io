@@ -9,7 +9,7 @@
         font-size: 35px
     }
 
-    .navigation li:first-child {
+    .navigation.menu {
         display: none
     }
 

@@ -19,17 +19,23 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
                     <li><a href="lvTemple.html">Las Vegas</a></li>
                     <li><a href="laTemple.html">Los Angeles</a></li>
-                    <li><a href="manhattanTemple.html">Manhattan</a></li>
+                    <li class="active"><a href="manhattanTemple.html">Manhattan</a></li>
                 </ul>
             </li>
             <li><a href="reservation.html">Reservations</a></li>
@@ -45,52 +51,77 @@
     </nav>
     <main>
         <h2>Manhattan New York Temple</h2>
-        <form action="reservation.html"><button>Book Now</button></form>
-        <img src="images/manhattanlg.jpg" alt="Manhattan temple photo">
-        <h3>Address</h3>
-        <p>125 Columbus Avenue New York, New York 10023</p>
-        <h3>Telephone</h3>
-        <a href="tel:1-917-441-8220">1-917-441-8220</a>
-        <h3>History</h3>
-        <p>The Manhattan temple was announced on August 7, 2002. The groundbreaking ceremony was held September 23,
-            2002. The temple was dedicated on June 13, 2004 by Gordon B. Hinckley. The open house was a month long and
-            had 53,000 guests. It is a small temple with the building serving multiple purposes.</p>
-        <div class="templedata">
-            <h3>Services</h3>
-            <ul id="services">
-            </ul>
+        <section class="one">
+            <picture class="column">
+                <source media="(max-width:32.5em)" srcset="images/manhattanSm.jpg">
+                <source media="(min-width:32.5em)" srcset="images/manhattanlg.jpg">
+                <img src="images/manhattanlg.jpg" alt="Manhattan temple photo">
+            </picture>
+            <article class="column">
+                <h3>Address</h3>
+                <p>125 Columbus Avenue New York, New York 10023</p>
+                <h3>Telephone</h3>
+                <a href="tel:1-917-441-8220">1-917-441-8220</a>
+                <h3>History</h3>
+                <p>The Manhattan temple was announced on August 7, 2002. The groundbreaking ceremony was held September
+                    23,
+                    2002. The temple was dedicated on June 13, 2004 by Gordon B. Hinckley. The open house was a month
+                    long and
+                    had 53,000 guests. It is a small temple with the building serving multiple purposes.</p>
+            </article>
+        </section>
+        <form action="reservation.html"><button class="book">Book Now</button></form>
+        <section class="one">
+            <div class="weather triad">
+                <h3>Weather Summary</h3>
+                <p>Currently: <span id="cc-alt"></span></p>
+                <p>High: <span id="temp"></span>&deg;</p>
+                <p>Humidity: <span id="humid"></span>&#37;</p>
+                <p>Wind Speed: <span id="speed"></span> mph</p>
+                <p>Wind Chill: <span id="chill"></span>&deg;</p>
+            </div>
+            <div class="templedata triad">
+                <h3>Services</h3>
+                <ul id="services">
+                </ul>
+            </div>
+        </section>
+        <div class="three">
+            <section class="triad">
+                <div class="templedata">
+                    <h3>Endowment Schedule</h3>
+                    <ul id="endowment">
+                    </ul>
+                </div>
+            </section>
+            <section class="triad">
+                <div class="templedata">
+                    <h3>Baptism Schedule</h3>
+                    <ul id="baptism">
+                    </ul>
+                </div>
+            </section>
+            <section class="triad">
+                <div class="templedata">
+                    <h3>Initiatory Schedule</h3>
+                    <ul id="initiatory">
+                    </ul>
+                </div>
+
+                <div class="templedata">
+                    <h3>Sealing Schedule</h3>
+                    <ul id="sealing">
+                    </ul>
+                </div>
+            </section>
         </div>
-        <div class="templedata">
-            <h3>Endowment Schedule</h3>
-            <ul id="endowment">
-            </ul>
-        </div>
-        <div class="templedata">
-            <h3>Baptism Schedule</h3>
-            <ul id="baptism">
-            </ul>
-        </div>
-        <div class="templedata">
-            <h3>Initiatory Schedule</h3>
-            <ul id="initiatory">
-            </ul>
-        </div>
-        <div class="templedata">
-            <h3>Sealing Schedule</h3>
-            <ul id="sealing">
-            </ul>
-        </div>
-        <div class="templedata" id="closures">
-            <h3>Temple Closure</h3>
-        </div>
-        <div class="weather">
-            <h3>Weather Summary</h3>
-            <p>Currently: <span id="cc-alt"></span></p>
-            <p>High: <span id="temp"></span>&deg;</p>
-            <p>Humidity: <span id="humid"></span>&#37;</p>
-            <p>Wind Speed: <span id="speed"></span> mph</p>
-            <p>Wind Chill: <span id="chill"></span>&deg;</p>
-        </div>
+        </article>
+        <section class="one">
+            <div class="templedata column">
+                <h3>Temple Closure</h3>
+                <ul id="closures"></ul>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
