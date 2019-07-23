@@ -1,33 +1,37 @@
-let endowment = document.querySelector('.endowment');
+let closure = document.getElementById('closure');
 
-let requestURL = "https://muir-courtney.github.io/assignments/templesite/closures.json";
+const requestURL = "https://muir-courtney.github.io/assignments/templesite/templedata.json";
 let request = new XMLHttpRequest();
+
 request.open('GET', requestURL);
-request.responseType = "json";
+request.responseType = 'json';
 request.send();
 
 request.onload = function () {
 
     let responsedata = request.response;
-    let moroni = responsedata['temples']
-    for (let i = 0; i < moroni.length; i++) {
-        if (moroni[i].name == "Boston") {
-            let endowment = moroni[i].endowment;
-            let endowmentcount = 0;
-            for (let j = 0; j < endowment.length; j++) {
-                let endowment = endowment[endowmentcount];
-                endowmentcount++;
+    let temple = responsedata['temples'];
+    for (let i = 0; i < temples.length; i++) {
+        if (temple.name[i] == "Boston") {
+            let closed = temple[i].closures;
+            let eventcount = 0;
+
+            for (let j = 0; j < closed.length; j++) {
+                let moroni = closed[eventcount];
+                eventcount++;
 
                 let myArticle = document.createElement('article');
-                let myParagraph = document.createElement('p');
+                let myparagraph = document.createElement('p');
 
-                myParagraph.textcontent = endowment;
-                myArticle.appendChild(myParagraph);
-                endowment.appendChild(myArticle);
+                myparagraph.textContent = moroni;
+                myArticle.appendChild(myparagraph);
+                closure.appendChild(myArticle);
             }
         }
     }
-};
+}
+
+
 
 
 //weather summary
