@@ -46,7 +46,7 @@
                     <li><a href="families.html">Families</a></li>
                 </ul>
             </li>
-            <li class="active"><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
@@ -54,27 +54,34 @@
         <p>Have any questions that were not answered? Need help planning your visit? Feel free to contact us below. We
             will get back to you within 72 hours. For faster responses, you may call us instead.
         </p>
-        <div class="contactform">
-            <form method="post" action="thanks.html">
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" placeholder="First Name">
-                <label for="lastname">Last Name</label>
-                <input type="text" id="lastname" placeholder="Last Name">
-                <label for="email">Email: <input name="email" type="email" placeholder="email@address.com"></label>
-                <label for="phone">Phone Number: <input name="phone" type="tel" placeholder="(555)123-4567"></label>
-                <label for="subject">Comments, Concerns, Questions<input name="comments" type="text"
-                        placeholder="Your comments here"></label>
-                <imput type="submit" value="Submit">Send</imput>
+        <section class="contactform">
+            <form action="thanks.html">
+                <ul>
+                    <li><label for="name">Name: </label>
+                        <input type="text" id="name" placeholder="Full Name"></li>
+                    <li><label for="email">Email: <input name="email" type="email"
+                                placeholder="email@address.com"></label></li>
+                    <li><label for="phone">Phone Number: <input name="phone" type="tel"
+                                placeholder="(555) 123-4567"></label></li>
+                    <li><label for="subject">Comments, Concerns, Questions<input name="subject" type="text"
+                                placeholder="Your comments here"></label></li>
+                </ul>
+                <imput class="send" type="submit" value="Submit">Send</imput>
             </form>
+        </section>
+        <div>
+            <p>Our Coporate Headquarters is located at</p>
+            <p>800 Montgomery Ln #300 Bethesda, MD 20814</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837032948!2d-77.09772584886802!3d38.98325594938294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1563818968208!5m2!1sen!2sus"
+                width="400" height="300" frameborder="0" style="border:0" allowfullscreen
+                alt="Google map of headquarters"></iframe>
         </div>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837032948!2d-77.09772584886802!3d38.98325594938294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1563818968208!5m2!1sen!2sus"
-            width="400" height="300" frameborder="0" style="border:0" allowfullscreen
-            alt="Google map of headquarters"></iframe>
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

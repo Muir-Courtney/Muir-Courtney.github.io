@@ -77,6 +77,10 @@ nav li {
     font-size: 18px;
 }
 
+.responsive li {
+    display: block
+}
+
 .mainnav a:hover {
     background-color: #a9c8cc;
     color: #507a80;
@@ -107,7 +111,6 @@ h3 {
 }
 
 .column {
-    width: 48%;
     flex: 1 0 15em;
     padding: 5px;
 }
@@ -144,9 +147,46 @@ button:hover {
 
 .three {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .three .triad {
-    width: 31%;
+    width: 30%;
+}
+
+.resform,
+.resform li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.resform>li>label,
+.resform li {
+    flex: 1 0 300px;
+    max-width: 300px;
+}
+
+.contactform,
+.contactform li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+    text-align: left;
+}
+
+.contactform>li>label,
+.contactform li {
+    flex: 0 0 300px;
+    max-width: 300px;
+}
+
+.send {
+    background-color: #806c5d;
+    border-radius: 12px;
+    padding: 10px;
+    color: #fff5ed;
 }

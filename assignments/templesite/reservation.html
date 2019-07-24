@@ -18,11 +18,17 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
@@ -31,7 +37,7 @@
                     <li><a href="manhattanTemple.html">Manhattan</a></li>
                 </ul>
             </li>
-            <li><a href="reservation.html">Reservations</a></li>
+            <li class="active"><a href="reservation.html">Reservations</a></li>
             <li><a href="services.html">Services</a>
                 <ul>
                     <li><a href="weddings.html">Weddings</a></li>
@@ -48,10 +54,10 @@
             <p>We look forward to seeing you. Please make reservations as soon as possible as our rooms, suites, and
                 reservation hall do book quickly. We will contact you back </p>
         </section>
-        <section>
+        <section class="resform">
             <form action="thanks.html">
                 <h3>Reservation Form</h3>
-                <ul class="resform">
+                <ul>
                     <li>
                         <label class="label">Full Name <span class="required">*</span> <input name="fullname"
                                 type="text" pattern="[a-zA-z]{5,}" title="Name must be at least 5 letters"
@@ -59,7 +65,7 @@
                     </li>
                     <li>
                         <label class="label">Phone Number <span class="required">*</span> <input name="phone" type="tel"
-                                required placeholder="(555)123-4567"></label></li>
+                                required placeholder="(555) 123-4567"></label></li>
                     <li>
                         <label class="label">Email <input name="email" type="email"
                                 placeholder="email@address.com"></label>
@@ -81,30 +87,34 @@
                                 required></label>
                     </li>
                     <li>
-                        <p>Room, Suite, Reception Hall?</p>
-                        <label for="room">Room </label>
-                        <input type="radio" id="room" name="choice" value="room" checked>
-                        <label for="suite">Suite </label>
-                        <input type="radio" id="suite" name="choice" value="suite">
-                        <label for="suite">Reception Hall </label>
-                        <input type="radio" id="hall" name="choice" value="hall">
+                        <p>Room, Suite, Reception Hall? </p>
+                        <ul class="form">
+                            <label for="room"> Room </label>
+                            <input type="radio" id="room" name="choice" value="room" checked>
+                            <label for="suite">Suite </label>
+                            <input type="radio" id="suite" name="choice" value="suite">
+                            <label for="suite">Reception Hall </label>
+                            <input type="radio" id="hall" name="choice" value="hall">
+                        </ul>
                     </li>
                     <li>
                         <label for="amount">Number of Rooms <input id="amount" type="text"></label>
                     </li>
                     <li>
-                        <label for="message">Special accommodations or comments</label>
+                        <label for="message">Special accommodations or comments including alternate dates</label>
                         <textarea id="message"
-                            placeholder="Use this space for any special needs or desires that you would like to communicate to us including optional dates."></textarea>
+                            placeholder="Use this space for any special needs or desires that you would like to communicate to us."></textarea>
                     </li>
                 </ul>
+                <imput type="submit" value="Submit" class="send">Send</imput>
+                <p><span class="required">*</span> Fields are required.</p>
             </form>
-            <p><span class="required">*</span> Fields are required.</p>
         </section>
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

@@ -19,14 +19,20 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
-                    <li><a href="bostonTemple.html">Boston</a></li>
+                    <li class="active"><a href="bostonTemple.html">Boston</a></li>
                     <li><a href="lvTemple.html">Las Vegas</a></li>
                     <li><a href="laTemple.html">Los Angeles</a></li>
                     <li><a href="manhattanTemple.html">Manhattan</a></li>
@@ -57,6 +63,7 @@
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

@@ -19,11 +19,17 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
@@ -33,7 +39,7 @@
                 </ul>
             </li>
             <li><a href="reservation.html">Reservations</a></li>
-            <li><a href="services.html">Services</a>
+            <li class="active"><a href="services.html">Services</a>
                 <ul>
                     <li><a href="weddings.html">Weddings</a></li>
                     <li><a href="missionaries.html">Missionaries</a></li>
@@ -46,45 +52,57 @@
     <main>
         <h2>Services</h2>
         <section>
-            <p>
-                All of our guests enjoy the following amenties and services.</p>
-            <h3>Free Amenities</h3>
-            <ul>
-                <li>Parking</li>
-                <li>Temple Shuttle</li>
-                <li>Smart Televisions</li>
-                <li>Free High Speed WiFi</li>
-                <li>Continental Breakfast</li>
-                <Li>Exercise Room and Pool</Li>
-                <li>Family History Consultation</li>
-                <li>Family Ordinance Card Service</li>
-            </ul>
-            <h3>Available Services</h3>
-            <ul>
-                <li>Family Search Center</li>
-                <li>Free Changing Rooms and Bathrooms for temple patrons</li>
-                <li>Playroom and babysitting for children of temple patrons</li>
-                <li>Kitchenette suites for full-time temple missionaries</li>
-                <li>Reception Hall with catering available</li>
-            </ul>
-            <p>For more specific services, please see below.
-            </p>
+            <p> All of our guests enjoy the following amenties and services.</p>
+            <section class="one">
+                <div class="column">
+                    <h3>Free Amenities</h3>
+                    <ul>
+                        <li>Parking</li>
+                        <li>Temple Shuttle</li>
+                        <li>Smart Televisions</li>
+                        <li>Free High Speed WiFi</li>
+                        <li>Continental Breakfast</li>
+                        <Li>Exercise Room and Pool</Li>
+                        <li>Family History Consultation</li>
+                        <li>Family Ordinance Card Service</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Available Services</h3>
+                    <ul>
+                        <li>Family Search Center</li>
+                        <li>Free Changing Rooms and Bathrooms for temple patrons</li>
+                        <li>Playroom and babysitting for children of temple patrons</li>
+                        <li>Kitchenette suites for full-time temple missionaries</li>
+                        <li>Reception Hall with catering available</li>
+                    </ul>
+                </div>
+            </section>
         </section>
-        <section>
-            <a href="families.html">
-                <h2>For Familes</h2><img src="images/tempFamSm.jpg" alt="family in white in front of temple">
-            </a>
-            <a href="missionaries.html">
-                <h2>For Missionaries</h2><img src="images/missionarySm.jpg" alt="family in white in front of temple">
-            </a>
-            <a href="weddings.html">
-                <h2>For Couples</h2><img src="images/weddingCoupleSm.jpg" alt="couple in front of temple">
-            </a>
+        <section class="three">
+            <div class="triad">
+                <a href="families.html">
+                    <h2>For Familes</h2><img src="images/tempFamSm.jpg" alt="family in white in front of temple">
+                </a>
+            </div>
+            <div class="triad">
+                <a href="missionaries.html">
+                    <h2>For Missionaries</h2><img src="images/missionarySm.jpg"
+                        alt="family in white in front of temple">
+                </a>
+            </div>
+            <div class="triad">
+                <a href="weddings.html">
+                    <h2>For Couples</h2><img src="images/weddingCoupleSm.jpg" alt="couple in front of temple">
+                </a>
+            </div>
         </section>
+
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

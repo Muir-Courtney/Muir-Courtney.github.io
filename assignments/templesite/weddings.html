@@ -19,11 +19,17 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 800-836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
             <li><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
@@ -35,7 +41,7 @@
             <li><a href="reservation.html">Reservations</a></li>
             <li><a href="services.html">Services</a>
                 <ul>
-                    <li><a href="weddings.html">Weddings</a></li>
+                    <li class="active"><a href="weddings.html">Weddings</a></li>
                     <li><a href="missionaries.html">Missionaries</a></li>
                     <li><a href="families.html">Families</a></li>
                 </ul>
@@ -52,27 +58,33 @@
         <p>We have wedding contacts available that have worked with our reception hall previously. These include
             florists, bakers, photographers, videographers, music coordinator and others. Reviews and recommendations
             available upon request.</p>
-        <img src="images/hall.jpg" alt="recption hall photo">
-        <img src="images/cake.jpg" alt="wedding cake photo">
-        <img src="images/plate.jpg" alt="Food on a plate">
+        <div class="three">
+            <img src="images/hall.jpg" alt="recption hall photo">
+            <img src="images/cake.jpg" alt="wedding cake photo">
+            <img src="images/plate.jpg" alt="Food on a plate">
+        </div>
         <P>Let us help take the stress out of your wedding day so you can enjoy your special day. Contact us today!</P>
-        <div class="contactform">
+        <section class="contactform">
             <form method="post" action="thanks.html">
-                <label for="firstname">First Name</label>
-                <input type="text" id="firstname" placeholder="First Name">
-                <label for="lastname">Last Name</label>
-                <input type="text" id="lastname" placeholder="Last Name">
-                <label for="email">Email: <input name="email" type="email" placeholder="email@address.com"></label>
-                <label for="phone">Phone Number: <input name="phone" type="tel" placeholder="(555)123-4567"></label>
-                <label for="date">Wedding Date<input type="date" name="date"></label>
-                <label for="subject">Comments, Concerns, Questions<input name="comments" type="text"
-                        placeholder="Your comments here"></label>
-                <imput type="submit" value="Submit">Send</imput>
+                <ul>
+                    <li><label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Full Name"></li>
+                    <li><label for="email">Email: <input name="email" type="email"
+                                placeholder="email@address.com"></label></li>
+                    <li><label for="phone">Phone Number: <input name="phone" type="tel"
+                                placeholder="(555) 123-4567"></label></li>
+                    <li><label for="date">Wedding Date: <input type="date" name="date"></label></li>
+                    <li><label for="subject">Comments, Concerns, Questions<input name="subject" type="text"
+                                placeholder="Your comments here"></label></li>
+                </ul>
+                <imput class="send" type="submit" value="Submit">Send</imput>
             </form>
+        </section>
     </main>
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>

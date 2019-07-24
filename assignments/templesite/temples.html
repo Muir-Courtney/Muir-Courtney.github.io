@@ -19,12 +19,18 @@
 <body>
     <header>
         <img class="logo" src="images/templeHeader.png" alt="Salt Lake Temple Silhouette">
-        <h1>Temple Inn and Suites</h1>
-        <p>4800 Montgomery Ln #300 Bethesda, MD 20814 (800) 836-7537</p>
+        <div class="heading">
+            <h1>Temple Inn and Suites</h1>
+            <p class="address">4800 Montgomery Ln #300 </p>
+            <p class="address">Bethesda, MD 20814</p>
+            <p class="address">(800) 836-7537</p>
+        </div>
     </header>
     <nav>
         <ul class="mainnav">
-            <li><a href="temples.html">Temples</a>
+            <li><a href="#" title="Menu" onclick="togglemenu()" id="hamburger">&#9776; Menu</a></li>
+            <li><a href="/Muir-Courtney.github.io/assignments/templesite/">Home</a></li>
+            <li class="active"><a href="temples.html">Temples</a>
                 <ul>
                     <li><a href="bostonTemple.html">Boston</a></li>
                     <li><a href="lvTemple.html">Las Vegas</a></li>
@@ -45,20 +51,29 @@
     </nav>
     <main>
         <h2>Temple Locations</h2>
-        <p>We hope to have accommodations near every temple someday. For now, here are our locations.</p>
-        <article>
-            <a href="bostonTemple.html">
-                <h3>Boston</h3><img src="images/bostonSm.jpg" alt="Boston temple photo">
-            </a>
-            <a href="lvTemple.html">
-                <h3>Las Vegas</h3><img src="images/lvnvsm.jpg" alt="Las Vegas temple photo">
-            </a>
-            <a href="laTemple.html">
-                <h3>Los Angeles</h3><img src="images/lacasm.jpg" alt="Los Angeles temple photo">
-            </a>
-            <a href="manhattanTemple.html">
-                <h3>Manhattan</h3><img src="images/manhattanSm.jpg" alt="Manhattan temple photo">
-            </a>
+        <p>We hope to have accommodations near every temple someday. Here are the temples near our current locations.
+        </p>
+        <article class="one">
+            <div class="column">
+                <a href="bostonTemple.html">
+                    <h3>Boston</h3><img src="images/boston.jpg" alt="Boston temple photo">
+                </a>
+            </div>
+            <div class="column">
+                <a href="lvTemple.html">
+                    <h3>Las Vegas</h3><img src="images/lvnv.jpg" alt="Las Vegas temple photo">
+                </a>
+            </div>
+            <div class="column">
+                <a href="laTemple.html">
+                    <h3>Los Angeles</h3><img src="images/laca.jpg" alt="Los Angeles temple photo">
+                </a>
+            </div>
+            <div class="column">
+                <a href="manhattanTemple.html">
+                    <h3>Manhattan</h3><img src="images/manhattan.jpg" alt="Manhattan temple photo">
+                </a>
+            </div>
             <p>For more temples around the world, please visit <a
                     href="https://www.churchofjesuschrist.org/temples/list">The Church of Jesus Christ of Latter-day
                     Saints
@@ -68,6 +83,7 @@
     <footer>
         <p>&copy;2019 Courtney Muir | <a href=" attributions.html">Attributions</a></p>
     </footer>
+    <script src="scripts/hamburger.js"></script>
 </body>
 
 </html>
