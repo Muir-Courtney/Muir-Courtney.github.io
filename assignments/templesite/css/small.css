@@ -190,3 +190,10 @@ button:hover {
     padding: 10px;
     color: #fff5ed;
 }
+
+input[type="radio"] {
+    display: block;
+    margin-right: 15px;
+    margin-left: 5px;
+    ;
+}
